@@ -1,0 +1,21 @@
+{
+  "name": "leaflet-layer-tilebound",
+  "homepage": "https://github.com/itbeyond/Leaflet-Layer-TileBound",
+  "authors": [
+    "David Martin <david@itbeyond.com.au>"
+  ],
+  "description": "Adds tile bound layer support to leaflet",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "leaflet"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
