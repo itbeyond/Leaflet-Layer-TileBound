@@ -5,7 +5,7 @@
     "David Martin <david@itbeyond.com.au>"
   ],
   "description": "Adds tile bound layer support to leaflet",
-  "main": "",
+  "main": "layer/L.L.TileBound.js",
   "moduleType": [],
   "keywords": [
     "leaflet"
