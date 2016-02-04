@@ -1,12 +1,12 @@
 {
   "name": "leaflet-layer-tilebound",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/itbeyond/Leaflet-Layer-TileBound",
   "authors": [
     "David Martin <david@itbeyond.com.au>"
   ],
   "description": "Adds tile bound layer support to leaflet",
-  "main": "layer/L.L.TileBound.js",
+  "main": "layer/L.TileLayer.Bound.js",
   "moduleType": [],
   "keywords": [
     "leaflet",

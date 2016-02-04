@@ -1,4 +1,4 @@
-﻿L.tileBoundLayer = L.TileLayer.extend({
+﻿L.TileLayer.Bound = L.TileLayer.extend({
     getTileUrl: function (tilePoint) {
         this._adjustTilePoint(tilePoint);
         if (this._shouldtileLoad(tilePoint)) {
