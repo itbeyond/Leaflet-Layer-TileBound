@@ -18,9 +18,9 @@
     _shouldtileLoad: function (tilePoint) {
         if (this.options.showbounds) {
             this.options.showbounds = L.latLngBounds(this.options.showbounds);
-            var tileSize = this.options.tileSize,
-
-            nwPoint = tilePoint.multiplyBy(tileSize),
+            var tileSize = this.options.tileSize;
+            if (this.options.detectRetina && L.Browser.retina && this.options.maxZoom > 0) { tileSize = tileSize * 2 }
+            nwPoint = tilePoint.multiplyBy(tileSize);
             sePoint = nwPoint.add(new L.Point(tileSize, tileSize));
             nw = this._map.unproject(nwPoint, tilePoint.z);
             se = this._map.unproject(sePoint, tilePoint.z);
